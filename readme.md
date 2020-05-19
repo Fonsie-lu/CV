@@ -1,9 +1,8 @@
-## [CV](CV.pdf)
+### [CV](CV.pdf)
 
-## [Anhang](./Anhang/)
+### [Anhang](./Anhang/)
 
-- [Arbeitszeugnis Swisscom](./Anhang/Arbeitszeugnis_Swisscom_1.pdf)
-- [Seite 2](./Anhang/Arbeitszeugnis_Swisscom_2.pdf)
+- [Arbeitszeugnis Swisscom](./Anhang/Arbeitszeugnis_Swisscom_1.pdf) / [Seite 2](./Anhang/Arbeitszeugnis_Swisscom_2.pdf)
 
 - [Zwischenzeugnis Swisscom](./Anhang/Zwischenzeugnis_Swisscom.pdf)
 
