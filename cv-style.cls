@@ -17,13 +17,13 @@
 
 \RequirePackage{xcolor}
 
-\definecolor{white}{RGB}{255,255,255}
+\definecolor{white}{HTML}{D8DEE9}
 
 \definecolor{darkgray}{HTML}{333333}
-\definecolor{gray}{HTML}{4D4D4D}
+\definecolor{gray}{HTML}{2E3440}
 \definecolor{lightgray}{HTML}{999999}
 
-\definecolor{blue}{HTML}{66D9EE}
+\definecolor{blue}{HTML}{81A1C1}
 \definecolor{red}{HTML}{FA2772}
 \definecolor{orange}{HTML}{FE9720}
 \definecolor{green}{HTML}{A7E22E}
@@ -125,12 +125,18 @@
   {%
     \color{%
       \ifcase\value{colorCounter}%
+        %blue\or%
+        %red\or%
+        %orange\or%
+        %green\or%
+        %purple\or%
+        %aquamarine\else%
         blue\or%
-        red\or%
-        orange\or%
-        green\or%
-        purple\or%
-        aquamarine\else%
+        blue\or%
+        blue\or%
+        blue\or%
+        blue\or%
+        blue\else%
         headercolor\fi%
     } #1#2#3%
   }%
