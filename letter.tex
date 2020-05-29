@@ -1,0 +1,42 @@
+% Setup
+\documentclass[
+	pagenumber=false, 
+	parskip=half, 
+	fromalign=right, 
+	foldmarks=true, 
+	addrfield=true 
+	]{scrlttr2}
+\usepackage[T1]{fontenc} 
+\usepackage{stix} 
+
+\usepackage[german]{babel} 
+\renewcommand*{\raggedsignature}{\raggedright} 
+
+% Absender	
+\setkomavar{fromname}{Beat Weber}
+\setkomavar{fromaddress}{Winkelreiedstr 47 \\ 6003 Luzern} 
+\setkomavar{signature}{Beat Weber} 
+\date{\today} 
+
+%	Empfänger
+\begin{document}
+\begin{letter}{BitHawk AG \\ Martin Estermann \\ Allee 1A \\ 6210 Sursee} 
+
+%	Inhalt
+\opening{Guten Tag Herr Estermann}
+
+Ende vergangenen Jahres habe ich den entschieden, auf anfangs dieses Jahres eine persönliche Auszeit von der Arbeitswelt einzuziehen. Seither bin ich arbeitslos und geniesse eine entschleunigte Zeit für mich. Jüngst habe ich mich dazu entschlossen, die Suche nach der nächsten Arbeitsstelle in Angriff zu nehmen.
+
+Ihr Mitarbeiter Fabian Näf, ein Kollege aus Jungendzeit, hat mich auf Sie aufmerksam gemacht. In meiner bisherigen beruflichen Tätigkeit wurde mir klar, dass ich technisch orientierte Arbeit bevorzuge, was unter anderem zu einem internen Stellenwechsel bei meinem letzten Arbeitgeber führte. An dieser Haltung hat sich seither wenig geändert. Privat habe ich michJavaScript befasst und möchte nach Möglichkeit auch in diesem Bereich beruflich Fuss fassen.
+
+Ich schätze mich als kreative, umgängliche und reflektierte Person ein. Die Interaktion mit Menschen ist mir im gleichen Masse wichtig wie das selbstängie Erarbeiten einer Aufgabe. Ich schätze eine offene und kritikfähige Teamkultur und einen kooperativen Führungsstil.
+
+Bei Interesse komme ich sehr gerne für einen Tag vorbei, damit ich mir ein Bild über die Arbeitstätigkeiten und das Team machen kann. Ich würde mich über ein positives Signal sehr freuen. 
+
+\closing{Freundliche Grüsse}
+
+\setkomavar*{enclseparator}{Anhang} 
+\encl{CV} 
+
+\end{letter}
+\end{document}
